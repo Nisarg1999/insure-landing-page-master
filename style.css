@@ -1,0 +1,414 @@
+/*Background pattern*/
+
+.pattern-left {
+    position: absolute;
+    z-index: 3;
+    top: 535px;
+
+}
+.colored-section {
+    position: relative;
+    z-index: 100;
+    padding-bottom: 5px;
+}
+
+
+/*container*/
+.container-fluid {
+    padding-right: 7%;
+    padding-left: 7%;
+}
+
+
+/*Nav bar*/
+.nav-link {
+    font-family: 'Karla', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+.nav-item {
+    padding: 0 10px;
+}
+
+.nav-title {
+    border: 0;
+    background-color: unset;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+}
+
+.nav-title:hover {
+    background-color: hsl(256, 26%, 20%);
+    color: #fff !important;
+}
+
+/*Heading and images*/
+
+.row {
+    margin: 0;
+}
+
+.desktop-photo {
+    position: absolute;
+    right: 18px;
+    z-index: 0;
+}
+
+.heading-section {
+    position: relative;
+    background-color: hsl(256, 26%, 20%);
+    color: #fff;
+    padding-top: 7%;
+    padding-bottom: 7%;
+
+}
+
+.pattern {
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 3;
+}
+
+.line {
+    color: #fff;
+    height: 1px;
+    border-width: 0;
+    background-color: #fff;
+    width: 20%;
+}
+
+.line_2 {
+    color: black;
+    height: 1px;
+    border-width: 0;
+    background-color: black;
+    width: 10%;
+}
+
+.title-heading {
+    font-family: 'DM Serif Display', serif;
+    font-weight: 400;
+    font-size: 83px;
+    margin-top: 40px;
+    margin-bottom: 15px;
+}
+
+.description {
+    font-family: 'Karla', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 7%;
+}
+
+.title-plans {
+    border: 0;
+    background-color: unset;
+    padding: .5rem 20px !important;
+    color: #fff;
+    font-family: 'Karla', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+.title-plans:hover {
+    color: black;
+    background-color: #fff;
+}
+
+/*qutos*/
+
+.qutos {
+    padding-top: 20%;
+}
+
+/*feature*/
+
+.feature-title {
+    font-family: 'DM Serif Display', serif;
+    font-weight: 400;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.feature-about {
+    font-family: 'Karla', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    padding-right: 30px;
+}
+
+.white-section {
+    padding-top: 40px;
+}
+
+/*about work*/
+
+.box {
+    background-image: url(images/bg-pattern-how-we-work-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-color: hsl(256, 26%, 20%);
+    color: #fff;
+    margin-top: 20px;
+    display: flex;
+}
+
+.title-heading-about {
+    font-family: 'DM Serif Display', serif;
+    font-weight: 400;
+    font-size: 60px;
+    padding: 40px;
+}
+
+.work {
+    width: 40%;
+    padding-top: 40px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.box-contaent {
+    width: 60%;
+}
+
+.how-we-work {
+    position: absolute;
+}
+
+.about-work {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+/*company*/
+
+.container-fluid.company {
+    background-color: hsl(0, 0%, 98%);
+    background-image: url(images/bg-pattern-footer-desktop.svg);
+    background-repeat: no-repeat;
+}
+
+.logo {
+    padding: 20px 0 10px;
+}
+
+.logo-bottom{
+    padding-right: 77%;
+}
+
+.icon-bottom {
+    align-items: right;
+    padding: 0 5px
+    
+}
+
+.line_3 {
+    color: black;
+    height: 1px;
+    border-width: 0;
+    background-color: black;
+    width: 100%;
+}
+
+.row.company {
+    font-family: 'Karla', sans-serif;
+    font-weight: 700;
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+
+h6 {
+    color: hsl(273, 4%, 51%);
+    padding-bottom: 30px;
+}
+
+.conpany-section{
+    margin-top: 100px;
+}
+
+@media (max-width: 500px){
+    #navbarSupportedContent {
+        background-color: hsl(256, 26%, 20%);
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container-fluid {
+        padding-left: unset !important;
+        padding-right: unset !important;
+    }
+
+    .navbar {
+        padding: 0 !important;
+    }
+
+    .navbar-brand {
+        padding: .5rem 1rem;
+    }
+
+    .ml-auto {
+        align-items: center;
+        padding-top: 20%;
+        padding-bottom: 80%;
+        background-image: url(images/bg-pattern-mobile-nav.svg);
+        background-repeat: no-repeat;
+        background-position: bottom;
+        background-size: contain;
+    }
+
+    .nav-item {
+        padding: 10px 10px;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        width: 100%;
+    }
+
+    .nav-link {
+        color: #fff !important;
+    }
+
+    .nav-title{
+        border: 2px solid;
+        border-color: #fff;
+        width: 100%;
+    }
+
+    .pattern-left {
+        visibility: hidden;
+    }
+
+    .pattern {
+        visibility: hidden;
+    }
+
+    .col-lg-6.mobile {
+        visibility: hidden;
+    }
+
+    .heading-section {
+        background-image: url(images/image-intro-mobile.jpg);
+        background-repeat: no-repeat;
+        background-position: top;
+        background-size: contain;
+    }
+
+    .container-fluid.row {
+        padding-top: 541px;
+        padding-bottom: 50px;
+    }
+
+    hr {
+        visibility: hidden;
+    }
+
+    .col-lg-6 {
+        text-align: center;
+        background-image: url(images/bg-pattern-intro-left-mobile.svg);
+        background-repeat: no-repeat;
+        background-position: top left;
+    }
+    
+    .title-heading {
+        font-size: 59px;
+        margin-top: 44px;
+    }
+
+    .description {
+        font-size: 22px;
+    }
+
+    .mobile {
+        content: url(images/bg-pattern-intro-right-mobile.svg);
+        position: absolute;
+        right: 0;
+        top: 958px;
+
+    }
+
+    .title-plans {
+        border: 1px solid;
+        border-color: #fff;
+        padding-left: 40px !important;
+        padding-right: 40px !important;
+        
+    }
+
+    .container-fluid.slogans {
+        text-align: center;
+    }
+
+    .line_2 {
+        visibility: visible;
+        width: 30%;
+        margin-left: 35%;
+        margin-top: 40px;
+    }
+
+    .feature-box {
+        text-align: center;
+        margin-bottom: 20px;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .feature-about{
+        padding: unset;
+        font-size: 18px;
+    }
+
+    .box {
+        display: block;
+        background-image: url(images/bg-pattern-how-we-work-mobile.svg);
+        background-repeat: no-repeat;
+        background-position: top right;
+        text-align: center;
+    }
+
+    .box-contaent {
+        width: unset;
+    }
+
+    .work {
+        width: unset;
+        padding-top: 0;
+        padding-bottom: 50px;
+    }
+
+    h2 {
+        font-size: 47px !important;
+    }
+
+    .conpany-section {
+        text-align: center;
+    }
+
+    .logo-bottom {
+        padding-right: 70%;
+        padding-left: 39%;
+        padding-bottom: 30px;
+        padding-top: 50px;
+    }
+
+    .container-fluid.company {
+        background-image: url(images/bg-pattern-footer-mobile.svg);
+        background-repeat: no-repeat;
+        background-position: top left;
+    }
+
+    .line_3 {
+        visibility: visible;
+        width: 90%;
+    }
+
+    h6 {
+        padding-top: 30px;
+    }
+}
